@@ -35,7 +35,7 @@ class PlaylistsService {
       values: [id],
     })).rows;
 
-    return playlist;
+    return {playlist};
   }
 }
 
